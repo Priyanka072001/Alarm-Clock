@@ -1,0 +1,102 @@
+/* Css for the index.html file */
+html,body {
+    color: white;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 2rem;
+}
+/*center the page */
+.center {
+    padding: 0.2em 2em;
+}
+/* title */
+.title{
+    width: 100%;
+    background: linear-gradient(rgb(244, 234, 219), rgb(242, 239, 239));
+}
+.title img{
+     width:20%;
+     background-color: inherit;
+     color:antiquewhite;
+}
+/* current time */
+#currenttime{
+    color:rgb(191, 136, 243);
+    letter-spacing: 0.2em;
+    text-shadow: 1.5px 1.5px rgba(245, 100, 245, 0.45);
+}
+/* set alarm */
+.alarm-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 2em 0 2em;
+}
+.alarm {
+    width: 100%;
+    padding: 0.5em 0.6em;
+    background: rgba(244, 190, 244, 0.825);
+    border-color: rgb(244, 253, 142);
+    border-radius: 6px;
+    color: rgb(240, 80, 133);
+}
+.alarm-history{
+    padding: 1rem;
+    background: linear-gradient(rgba(249, 215, 237, 0.99), rgb(242, 239, 239));
+    font-size:2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+}
+/* buttons */
+#setButton {
+    background: rgba(148, 242, 148, 0.864);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 2em 2em 0 2em;
+}
+#ClearButton {
+    background: rgba(22, 73, 240, 0.704);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 2em 2em 0 2em;
+}
+button.delete {
+    background: rgb(247, 18, 18);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(219, 137, 137, 0.652);
+    margin: 0.3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.fontbtn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* lines, labels, lists  */
+hr {
+    width: 70%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+label {
+    letter-spacing: 0.1em;
+    background: rgba(244, 240, 21, 0.71);
+    padding: 0.5em;
+    border-radius: 10px;
+    color: rgb(4, 200, 249);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <script src="https://kit.fontawesome.com/686f3fecd5.js" crossorigin="anonymous"></script>
+    <link  type="text/css" rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+    <div class="center">
+        <!-- clock title -->
+        <h3 class="title"><img src="https://famfonts.com/wp-content/uploads/alarm-clock-2-wide.png" ></i></h3>
+        
+            <div>
+                <!-- Shows Current Time -->
+                <h2 id="currenttime"></h2>
+
+                <!-- To set new Alarm -->
+                <div class="alarm-body">
+                    <label>
+                        <div>
+                            <select class="alarm" id="hr"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="alarm" id="min"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="alarm" id="sec"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="alarm" id="ampm"></select>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Button to set alarm -->
+            <button class="fontbtn" id="setButton">Set Alarm</button>
+
+            <!-- Button to stop alarm ringing-->
+            <button class="fontbtn" id="ClearButton">Reset</button>
+             <!-- Recently set alarms will be displayed here -->
+            <div>
+                <h3 class="alarm-history">RECENT ALARMS</h3>
+                <hr>
+                <!-- Here will be the list of all recent alarm set by the user -->
+                <ul id="incomplete-alarms">
+
+                </ul>
+            </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
