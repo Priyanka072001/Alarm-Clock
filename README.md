@@ -10,3 +10,8 @@
     <li>Recently set alarms are displayed in 'ALARMS' section</li>
  </ul>
   <img src="https://github.com/Priyanka072001/Alarm-Clock/blob/main/Images/Output.png?raw=true"> 
+ <h2><b>Alert message</b></h2>
+   <ul>
+ <li>The below image shows the alert message displayed when the set alarm is triggered.</li>
+ </ul>
+   <img src="https://github.com/Priyanka072001/Alarm-Clock/blob/main/Images/Alert-message.png?raw=true">
