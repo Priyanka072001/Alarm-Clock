@@ -9,4 +9,4 @@
  <li>In the below output image we can see the real time displayed with hours,minutes, seconds and a dropdown menu to select AM or PM.It also have buttons for set, reset and delete alarm.</li>
     <li>Recently set alarms are displayed in 'ALARMS' section</li>
  </ul>
-  <img src="https://github.com/Priyanka072001/Alarm-Clock/blob/main/Images/rough-sketch.png?raw=true"> 
+  <img src="https://github.com/Priyanka072001/Alarm-Clock/blob/main/Images/Output.png?raw=true"> 
